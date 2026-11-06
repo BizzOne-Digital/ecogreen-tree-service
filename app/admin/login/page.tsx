@@ -24,7 +24,7 @@ export default function LoginPage() {
   return (
     <main className="grid min-h-screen place-items-center bg-forest-900 p-4">
       <form onSubmit={submit} className="w-full max-w-sm space-y-4 rounded-2xl bg-white p-8 shadow-xl">
-        <Image src="/images/logo.png" alt="EcoGreen Tree Service LLC" width={966} height={318} priority className="mx-auto h-16 w-auto" />
+        <Image src="/images/logo.png" alt="EcoGreen Tree Service LLC" width={480} height={351} priority className="mx-auto h-24 w-auto" />
         <h1 className="text-center text-xl font-extrabold text-forest-950">Admin Login</h1>
         <label className="block"><span className="mb-1 block text-sm font-semibold">Email</span><input name="email" type="email" required autoComplete="username" className="field" /></label>
         <label className="block"><span className="mb-1 block text-sm font-semibold">Password</span><input name="password" type="password" required autoComplete="current-password" className="field" /></label>

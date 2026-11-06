@@ -37,8 +37,8 @@ export default function Header({ services }: Props) {
     <header className={`sticky top-0 z-40 bg-white transition-shadow ${compact ? "shadow-md" : ""}`}>
       <div className={`container-site flex items-center justify-between gap-4 transition-all ${compact ? "py-1.5" : "py-2.5"}`}>
         <Link href="/" aria-label="EcoGreen Tree Service LLC home" className="shrink-0">
-          <Image src="/images/logo.png" alt="Eco Green Tree Service LLC logo" width={966} height={318} priority
-            className={`w-auto transition-all ${compact ? "h-12" : "h-14 lg:h-[4.5rem]"}`} />
+          <Image src="/images/logo.png" alt="Eco Green Tree Service LLC logo" width={480} height={351} priority
+            className={`w-auto transition-all ${compact ? "h-14" : "h-16 lg:h-20"}`} />
         </Link>
 
         <nav aria-label="Main" className="hidden items-center gap-5 xl:flex xl:gap-7">

@@ -22,7 +22,7 @@ export default function AdminSidebar() {
       </button>
       <aside className={`fixed inset-y-0 left-0 z-30 w-60 overflow-y-auto bg-forest-950 p-4 text-white transition-transform lg:translate-x-0 ${open ? "translate-x-0" : "-translate-x-full"}`}>
         <div className="mt-12 rounded-lg bg-white p-2 lg:mt-0">
-          <Image src="/images/logo.png" alt="EcoGreen admin" width={966} height={318} className="h-auto w-full" />
+          <Image src="/images/logo.png" alt="EcoGreen admin" width={480} height={351} className="mx-auto h-20 w-auto" />
         </div>
         <nav aria-label="Admin" className="mt-5 space-y-1">
           {LINKS.map(([href, label, Icon]) => {

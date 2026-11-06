@@ -23,7 +23,7 @@ export default function Footer({ site, services, showGallery }: Props) {
       <div className="container-site grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <Link href="/" className="inline-block rounded-xl bg-white p-2">
-            <Image src="/images/logo.png" alt="Eco Green Tree Service LLC logo" width={966} height={318} className="h-16 w-auto" />
+            <Image src="/images/logo.png" alt="Eco Green Tree Service LLC logo" width={480} height={351} className="h-24 w-auto" />
           </Link>
           <p className="mt-4 leading-relaxed">{site.footerText}</p>
         </div>

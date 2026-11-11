@@ -12,7 +12,7 @@ export default function TestimonialsPreview({ eyebrow, heading, reviews }: { eye
         <div className="mt-10 grid gap-6 md:grid-cols-3">
           {reviews.slice(0, 3).map((review) => <ReviewCard key={review._id} review={review} />)}
         </div>
-        <div className="mt-8 text-center"><Link href="/testimonials" className="btn btn-green">Read More Reviews</Link></div>
+        <div className="mt-8 flex flex-wrap justify-center gap-3"><Link href="/testimonials" className="btn btn-green">Read More Reviews</Link><Link href="/testimonials#leave-a-review" className="btn border-2 border-forest-700 text-forest-700 hover:bg-forest-700 hover:text-white">Leave a Review</Link></div>
       </div>
     </section>
   );

@@ -51,6 +51,8 @@ export const Testimonial = model("Testimonial", new Schema({
   image: { type: String, default: "" },
   published: { type: Boolean, default: true },
   order: { type: Number, default: 0 },
+  // Set only on reviews sent from the public form; used for rate limiting.
+  ipHash: { type: String, select: false },
 }, opts));
 
 export const FAQ = model("FAQ", new Schema({

@@ -6,6 +6,7 @@ import EmergencyCTA from "@/components/home/EmergencyCTA";
 import FaqPreview from "@/components/home/FaqPreview";
 import Hero from "@/components/home/Hero";
 import ProcessSteps from "@/components/home/ProcessSteps";
+import RecentWork from "@/components/home/RecentWork";
 import ServicesPreview from "@/components/home/ServicesPreview";
 import TestimonialsPreview from "@/components/home/TestimonialsPreview";
 import WarningSigns from "@/components/home/WarningSigns";
@@ -27,6 +28,7 @@ export default async function HomePage() {
       <AboutPreview content={content} />
       <ProcessSteps content={content} />
       <WhyChooseUs content={content} />
+      <RecentWork />
       <WarningSigns content={content} />
       <EmergencyCTA content={content} phone={site.phone} />
       <CareBenefits content={content} />

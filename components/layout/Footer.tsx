@@ -14,7 +14,7 @@ export default function Footer({ site, services, showGallery }: Props) {
   const nav: [string, string][] = [
     ["/", "Home"], ["/about", "About"], ["/services", "Services"], ["/team", "Team"],
     ["/testimonials", "Testimonials"], ["/faq", "FAQ"], ["/booking", "Booking"], ["/contact", "Contact"],
-    ...(showGallery ? ([["/gallery", "Gallery"]] as [string, string][]) : []),
+    ["/gallery", "Gallery"],
   ];
   const heading = "font-display text-lg font-extrabold text-lime";
 
